@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body *{
+    /* font-family: Poppins; */
+    
+}
+
+.girl{
+    overflow-x: hidden;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    
+    
+
+}
+.girl>img{
+    height: 100vh;
+    width: auto;
+    
+}
+.logo{
+    padding-left: 3rem;
+    width: fit-content;
+    
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 5rem;
+    padding-top: 2rem;
+ 
+}
+.nav-item{
+    margin-left: 2.5rem;
+    text-decoration: none;
+    color: #333;
+}
+.line{
+    width: 2px;
+    height: 420px;
+    background-color: #333;
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 12.5rem;
+    left: 16rem;
+}
+
+/* Navigation area ends */
+.topdiv{
+    display: flex;
+    justify-content: flex-end;
+    /* width: max-content; */
+    height: fit-content;
+
+}
+
+
+.topdiv-left>h1{ 
+    color: white;
+    font-size: 12rem;
+    position: relative;
+    bottom: 26rem;
+    right: 12rem;
+    -webkit-text-stroke: 1px #333;
+}
+
+.the-span{
+    font-size: 12rem;
+    color:#333;
+    position: absolute;
+    top: 12rem;
+    right: 22rem;
+
+}
+
+.circle {
+    content: '#333';
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 19rem;
+    left: 15rem;
+    background-color: #333;
+    border-radius: 50%;
+  }
+
+.socials *{
+   /* border : 2px solid red; */
+   position: relative;
+   display: block;
+   bottom: 24rem;
+   left: 8rem;
+   margin-bottom: 4rem;
+}
+
+.topdiv-right h2{
+    position: absolute;
+    top: 18rem;
+    right: 8rem;
+    font-size: 2.5rem;
+    color: rgb(131, 129, 129);
+}
+.top-btn {
+    background-color: #333;
+    color: white;
+    padding: .8rem 1rem;
+    text-transform: uppercase;
+    bottom: none;
+    position: relative;
+    left: -3rem;
+    top: 7rem;
+    bottom: 3.5rem;
+    margin-bottom: 1rem;
+    border: none;
+  }
+
+
+/* bottom section */
+.bottomdiv{
+    position: relative;
+}
+.points-text{
+    display: block;
+    position: relative;
+    left: 35rem;
+    bottom: 10rem;
+}
+.points-text {
+        margin-bottom: 2rem;
+        width: 200px;   
+}
+.points-text {
+    margin-bottom: 2rem;
+    position: relative;
+    bottom: 41.5rem;
+    
+}
+.points-text p{
+    margin-bottom: 2rem;
+    /* margin-left: -2rem; */
+    padding-left: -2rem;
+}
+.para-point::before{
+    content: '‎';
+    position: relative;
+    right: 2.4rem;
+    display: inline-block;
+    width: 15px;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    background-color: #333;
+}
+.line2{
+    width: 2px;
+    height: 260px;
+    background-color: #333;
+    transform: rotate(180deg);
+    position: relative;
+    left: 33rem;
+    bottom: 25.2rem;
+}
+
+.bottom-para{
+    position: absolute;
+    bottom: 53rem;
+    left: 48rem;
+    width: 250px;
+}
+
+.bottom-right{
+    position: relative;
+}
+
+.bottom-img> img{
+    width: 17rem;
+    position: absolute;
+    bottom: 41rem;
+    left: 48rem;
+}
+.bottom-img{
+    position: relative;
+}
+.quotes{
+    position: relative;
+}
+.quotes>img{
+    position: absolute;
+    bottom: 56rem; 
+    left: 48rem;
+    width: 6rem;
+}
+
+.arrow{
+    position: relative;
+}
+.arrow>img{
+   position: absolute;
+   bottom: 42rem;
+   left: 75rem;
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE */
+    *{
+        width: fit-content;
+    }
+    body{
+        width: 100vw;
+    }
+    .logo{
+        padding-left: 1rem;
+    }
+    .girl{
+        overflow-x: hidden;
+        z-index: -2;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+            }
+    .nav-items{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .topdiv{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        /* width: max-content; */
+        height: fit-content;
+    
+    }
+    .socials *{
+        bottom: 18rem;
+        left: 20rem;
+        margin-bottom: 2.5rem;
+     }
+     .topdiv-right h2{
+        position: absolute;
+        top: 46rem;
+        right: 2rem;
+        font-size: 1.8rem;
+        color: rgb(131, 129, 129);
+    }
+    .topdiv-left>h1{ 
+        color: white;
+        font-size: 8rem;
+        position: relative;
+        top: 28rem;
+        right: -1rem;
+        -webkit-text-stroke: 1px #333;
+        z-index: 49999;
+    }
+    .the-span{
+        font-size: 8rem;
+        color:#999;
+        position: absolute;
+        top: 38rem;
+        right: 1rem;
+    
+    }
+
+    .line2{
+        width: 2px;
+        height: 230px;
+        background-color: #333;
+        transform: rotate(180deg);
+        position: relative;
+        left: 2rem;
+        bottom: -15.2rem;
+    }
+
+    .points-text{
+        display: block;
+        position: relative;
+        left: 3rem;
+        bottom: -1rem;
+    }
+    .bottom-img> img{
+        width: 12rem;
+        position: absolute;
+        bottom: 7rem;
+        left: 11rem;
+        margin-right: 1rem;
+    }
+    .quotes>img{
+        position: absolute;
+        bottom: 5rem; 
+        left: 9rem;
+        width: 2rem;
+    }
+    .arrow>img{
+     display: none;
+     }
+     .bottom-para{
+        position: absolute;
+        bottom: 2rem;
+        left: 12rem;
+        width: 178px;
+        margin-right: 1rem;
+      }
+      .top-btn{
+        background-color: #333;
+        color: white;
+        padding: .8rem 1rem;
+        text-transform: uppercase;
+        bottom: none;
+        position: relative;
+        left: 13rem;
+        top: 48rem;
+        bottom: 3.5rem;
+        margin-bottom: 1rem;
+        border: none;
+      }
+    }
+ 
+    
+    
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 868px) { 
+    /* STYLES HERE */
+    *{
+        width: fit-content;
+    }
+    body{
+        width: 100vw;
+    }
+    .logo{
+        padding-left: 1rem;
+    }
+    .girl{
+        overflow-x: hidden;
+        z-index: -2;
+        position: absolute;
+        top: 0;
+        /* width: 100vw; */
+            }
+    .nav-items{
+        display: none;
+    }
+    .line{
+        display: none;
+    }
+    .topdiv{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        /* width: max-content; */
+        height: fit-content;
+        
+    }
+    .socials *{
+        bottom: 18rem;
+        left: 48.3rem;
+        margin-bottom: 2.5rem;
+    }
+    .topdiv-right h2{
+        position: absolute;
+        top: 62rem;
+        right: 14rem;
+        font-size: 1.8rem;
+        color: rgb(131, 129, 129);
+    }
+    .topdiv-left>h1{ 
+        color: white;
+        font-size: 8rem;
+        position: relative;
+        top: 44rem;
+        right: -4rem;
+        -webkit-text-stroke: 1px #333;
+        z-index: 49999;
+    }
+    .the-span{
+        font-size: 8rem;
+        color:#999;
+        position: absolute;
+        top: 56rem;
+        right: 22rem;
+        
+    }
+    
+    .line2{
+        width: 2px;
+        height: 230px;
+        background-color: #333;
+        transform: rotate(180deg);
+        position: relative;
+        left: 2rem;
+        top: 35rem;
+        bottom: 5.2rem;
+        /* display: none; */
+    }
+    
+    .points-text{
+        display: block;
+        position: relative;
+        left: 3rem;
+        bottom: -20rem;
+    }
+    .bottom-img> img{
+        width: 15rem;
+        position: absolute;
+        bottom: -15rem;
+        left: 22rem;
+    }
+    .quotes>img{
+        position: absolute;
+        bottom: 0rem; 
+        left: 18rem;
+        top: 15rem;
+        width: 3rem;
+    }
+    .arrow>img{
+        /* display: none; */
+        right: 59rem;
+        position: relative;
+        left: 40rem;
+        top: 4rem;
+    }
+    .bottom-para{
+        position: absolute;
+        bottom: -11rem;
+        left: 22rem;
+        width: 250px;
+    }
+    .top-btn{
+        background-color: #333;
+        color: white;
+        padding: .8rem 1rem;
+        text-transform: uppercase;
+        bottom: none;
+        position: relative;
+        left: 38rem;
+        top: 62rem;
+        bottom: 1.5rem;
+        margin-bottom: 1rem;
+        border: none;
+    }
+    
+}
+
+
